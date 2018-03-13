@@ -12,7 +12,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # search twitter from API
-public_tweets = api.search('\Led Zeppelin', count=100)
+public_tweets = api.search('Led Zeppelin', count=100)
 
 # create lists of tweets & sentiments
 tweets = []
